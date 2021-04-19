@@ -1,0 +1,2 @@
+Tricatel
+    admin:admin

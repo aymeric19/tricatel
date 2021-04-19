@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family:proxima_black ;
+    src: url(../font/FontsFree-Net-Proxima-Nova-Black.otf);
+}
+
+@font-face {
+    font-family:proxima_light ;
+    src: url(../font/ProximaNova-Light.otf);
+
+}
+.logo
+{
+width: 200px;
+}
+.navbar
+{
+  background-color: #FF8511;
+}
+.body{
+    background-color:#18191C;
+
+}
+.img{
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.3);
+  border-radius: 0 0 10% 10%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "proxima_black",sans-serif;
+    color: #FFF;
+
+}
+h2{
+    font-family: "proxima_light",sans-serif;
+    color: #fff;
+}
+p{
+  color: #000;
+}
+
+.container {
+    width: 100%;
+
+}
+
+#baniere {
+    width: 100%;
+}
+
+.hero-container img
+{
+    width: 100%;
+    height: auto;
+
+}
+label{
+  color: #fff;
+}
+
+
+
+
+.filtre{
+    background-color: #18191C;
+    width: 100%;
+    border-radius: 0% 0% 10% 10%;
+    box-shadow: 0px 15px 15px -15px rgba(255, 83, 0,0.5);
+}
+
+
+
+.plat {
+    margin: 9%;
+    box-shadow: 0 0 15px 5px rgba(255, 83, 0,0.5);
+}
+
+.img_plat{
+	width: 370px;
+    height: 220px;
+	align-self: center;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .gamme{
+		margin: 0 auto;
+		margin-bottom: 5%;
+		margin-top:5%;
+	}
+    .btn{
+        font-size:1.2em;
+        }
+
+        .btn:hover{
+        font-size:1.2em;
+        }
+}
